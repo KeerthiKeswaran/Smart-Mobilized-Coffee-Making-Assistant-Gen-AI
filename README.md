@@ -32,8 +32,8 @@ The problem being addressed is the lack of mobility and personalized assistance 
 The static nature of current coffee makers limits their functionality in domestic settings, especially for users seeking convenience and customization. This limitation affects a wide range of coffee enthusiasts who desire a more interactive and personalized coffee-making experience.
 
 ## Description of Concepts, Theories, and Approaches
-Our solution integrates mobility and artificial intelligence into a traditional coffee maker. This involves the use of an ESP32 module for control and connectivity, coupled with Generative AI to tailor coffee recipes based on user preferences. The AI adapts to user habits, offering a futuristic and user-centric experience.
-
+Our solution integrates mobility and artificial intelligence into a traditional coffee maker. This involves the use of an ESP32 module for control and connectivity, coupled with Generative AI to tailor coffee recipes based on user preferences. The AI adapts to user habits, offering a futuristic and user-centric experience.  
+This project also overcomes the need for programming separately for different coffee recipes. The coffee recipes can be dynamically generated using Large Language Models (LLMs) based on the user’s preferences, eliminating the need for custom coding.
 
 ## Technical Specifications
 The solution utilizes an ESP32 module for microcontroller operations. The system includes:
@@ -86,6 +86,7 @@ Several tests were conducted to validate the system's functionality:
 - Personalized coffee recipes tailored to user habits.
 - Voice and text command compatibility for seamless interaction.
 - Scalable design with potential for additional features like health monitoring.
+- Overcomes the need to program separate coffee recipes with dynamic generation through LLM.
 
 ## Bench Prototype Approach
 The current bench prototype utilizes an ESP32 module as the core microcontroller. The prototype includes:
@@ -128,7 +129,7 @@ The architecture of the Smart Mobilized Coffee-Making Assistant consists of the 
 2. **Steps to Install**
    1. Clone the repository:  
       ```bash
-      git clone https://github.com/KeerthiKeswaran/Smart-Mobilized-Coffee-Making-Assistant---Gen-AI
+      git clone https://github.com/GenHub/SmartMobilizedCoffeeMaker.git
       ```
    2. Install dependencies for the ESP32.
    3. Set up the cloud-based AI model (ensure you have an active subscription).
@@ -143,4 +144,4 @@ We welcome contributions to improve this project! Please fork the repository, ma
 ---
 
 ## License
-This project is licensed under the Apachie-2.0 License - see the [LICENSE]file for details.
+This project is licensed under the Apache 2.0 License - see the [LICENSE] file for details.
