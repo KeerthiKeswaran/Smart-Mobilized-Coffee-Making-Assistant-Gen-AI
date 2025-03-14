@@ -62,8 +62,6 @@ The solution utilizes an ESP32 module for microcontroller operations. The system
 - **Recipe Validation**: The microcontroller validates the recipe, proceeds to control the dispenser unit to prepare coffee, or prompts the user for clarification.
 - **Coffee Preparation Completion**: Once the coffee is prepared, the system notifies the user through the interface.
 
-[CAFF-E Black Coffee](https://github.com/KeerthiKeswaran/Smart-Mobilized-Coffee-Making-Assistant-Gen-AI/blob/main/docs-client/src/assets/CAFF-E%20Black%20Coffee.mp4)
-
 ### 4. Mobility Command Process
 - **Command Processing**: If the user issues a mobility command (e.g., move to the dining room or another location), the microcontroller processes the command.
 - **Motor Driver Control**: The microcontroller sends precise control signals to the motor driver.
