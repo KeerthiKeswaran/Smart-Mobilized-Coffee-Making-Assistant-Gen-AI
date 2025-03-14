@@ -37,7 +37,7 @@ The static nature of current coffee makers limits their functionality in domesti
 Our solution integrates mobility and artificial intelligence into a traditional coffee maker. This involves the use of an ESP32 module for control and connectivity, coupled with Generative AI to tailor coffee recipes based on user preferences. The AI adapts to user habits, offering a futuristic and user-centric experience.  
 This project also overcomes the need for programming separately for different coffee recipes. The coffee recipes can be dynamically generated using Large Language Models (LLMs) based on the user’s preferences, eliminating the need for custom coding.
 
-<img src="https://github.com/KeerthiKeswaran/Smart-Mobilized-Coffee-Making-Assistant-Gen-AI/blob/main/docs-client/src/assets/CAFF-E%20IntroImg.png" alt="CAFF-E" style="width: 400px; height: auto;">
+<img src="https://github.com/KeerthiKeswaran/Smart-Mobilized-Coffee-Making-Assistant-Gen-AI/blob/main/docs-client/src/assets/CAFF-E%20IntroImg.png" alt="CAFF-E" style="width: 600px; height: auto;">
 
 ## Technical Specifications
 The solution utilizes an ESP32 module for microcontroller operations. The system includes:
@@ -61,6 +61,8 @@ The solution utilizes an ESP32 module for microcontroller operations. The system
 - **Recipe Generation**: The AI generates a personalized coffee recipe tailored to the user’s preferences, such as strength, sweetness, milk content, and any special flavors.
 - **Recipe Validation**: The microcontroller validates the recipe, proceeds to control the dispenser unit to prepare coffee, or prompts the user for clarification.
 - **Coffee Preparation Completion**: Once the coffee is prepared, the system notifies the user through the interface.
+
+[CAFF-E Black Coffee](https://github.com/KeerthiKeswaran/Smart-Mobilized-Coffee-Making-Assistant-Gen-AI/blob/main/docs-client/src/assets/CAFF-E%20Black%20Coffee.mp4)
 
 ### 4. Mobility Command Process
 - **Command Processing**: If the user issues a mobility command (e.g., move to the dining room or another location), the microcontroller processes the command.
