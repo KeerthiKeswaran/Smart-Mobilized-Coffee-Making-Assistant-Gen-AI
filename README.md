@@ -37,7 +37,7 @@ The static nature of current coffee makers limits their functionality in domesti
 Our solution integrates mobility and artificial intelligence into a traditional coffee maker. This involves the use of an ESP32 module for control and connectivity, coupled with Generative AI to tailor coffee recipes based on user preferences. The AI adapts to user habits, offering a futuristic and user-centric experience.  
 This project also overcomes the need for programming separately for different coffee recipes. The coffee recipes can be dynamically generated using Large Language Models (LLMs) based on the user’s preferences, eliminating the need for custom coding.
 
-https://github.com/user-attachments/assets/7e0169e5-7b0d-4d3c-9ddc-c8b0e7522309
+![CAFF-E](https://github.com/KeerthiKeswaran/Smart-Mobilized-Coffee-Making-Assistant-Gen-AI/blob/main/docs-client/src/assets/CAFF-E%20IntroImg.png)
 
 ## Technical Specifications
 The solution utilizes an ESP32 module for microcontroller operations. The system includes:
